@@ -4,6 +4,8 @@
 
 This project is a Python-based API for generating fake data using **FastAPI** and **Faker**. The API provides endpoints to generate single or batch records of fake data, as well as WebSocket support for streaming events. This tool is perfect for testing, mocking data, or learning purposes, and can generate data such as names, emails, addresses, and more.
 
+**Note:** This project is strictly intended for **simulation and testing purposes** only. It should not be used for fraudulent activities or any form of malicious use.
+
 ### Key Features:
 - REST API endpoints for generating single or multiple records of fake data.
 - WebSocket endpoint for streaming fake events.
@@ -162,5 +164,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For any questions or suggestions, please open an issue or reach out to me at [your-email@example.com].
-
+For any questions or suggestions, please open an issue or reach out to me at [farman.pirz@gmail.com].
