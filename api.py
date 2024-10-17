@@ -66,7 +66,8 @@ async def generate_batch(schema: SchemaInput, num_records: Optional[int] = 10,
                                       generate_data_in_batches(schema_dict, 
                                                                num_records), 
                                       output_file)
-            return {"message": f"Data generation for {num_records} records is in progress. The output will be saved to '{output_file}'."}
+            return {"message": f"Data generation for {num_records} records is in progress. 
+                    The output will be saved to '{output_file}'."}
         else:
             # For smaller number of records, generate data and return immediately
             data = generate_data_in_batches(schema_dict, num_records)
@@ -99,7 +100,8 @@ async def generate_from_file(file: UploadFile = File(...),
                                       generate_data_in_batches(schema,
                                                                num_records), 
                                       output_file)
-            return {"message": f"Data generation for {num_records} records is in progress. The output will be saved to '{output_file}'."}
+            return {"message": f"Data generation for {num_records} records is in progress. 
+                    The output will be saved to '{output_file}'."}
         else:
             # For smaller number of records, generate data and return immediately
             data = generate_data_in_batches(schema, num_records)
