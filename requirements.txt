@@ -1,0 +1,8 @@
+fastapi==0.95.0
+uvicorn==0.22.0
+pydantic==1.10.5
+faker==18.9.0
+pyyaml==6.0
+websockets==11.0
+confluent-kafka==1.9.2
+click==8.1.3

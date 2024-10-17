@@ -1,0 +1,12 @@
+fields:
+  - name: name
+  - email: email
+  - address:
+      street: street_address
+      city: city
+      state: state
+      zipcode: postcode
+  - phone_number: phone_number
+  - company: company
+  - job: job
+  - birthdate: date_of_birth
